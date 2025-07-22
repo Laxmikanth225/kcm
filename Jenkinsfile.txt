@@ -10,7 +10,7 @@ pipeline  {
   stage ("packing") {
         steps {
           echo "packing"
-          bat 'mvn packing'
+          bat 'mvn package'
         }
   }
     stage ("build") {
