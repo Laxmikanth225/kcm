@@ -1,0 +1,27 @@
+pipeline  {
+  stages {
+    stage ("clean") {
+    steps {
+      echo "cleaning"
+      bat 'mvn clean'
+    }
+  }
+  stage ("packing") {
+        steps {
+          echo "packing"
+          bat 'mvn packing'
+        }
+  }
+    stage ("build") {
+      steps {
+        echo "building"
+        bat 'mvn install'
+      }
+    }
+  }
+}
+
+    
+    
+    
+        
