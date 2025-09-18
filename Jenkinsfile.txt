@@ -4,19 +4,19 @@ pipeline  {
     stage ("clean") {
     steps {
       echo "cleaning"
-      sh 'mvn clean'
+      bat 'mvn clean'
     }
   }
   stage ("packing") {
         steps {
           echo "packing"
-          sh 'mvn package'
+          bat 'mvn package'
         }
   }
     stage ("build") {
       steps {
         echo "building"
-        sh 'mvn install'
+        bat 'mvn install'
             }
 }
     stage ("Deploy") {
