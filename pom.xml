@@ -122,7 +122,7 @@
         <artifactId>tomcat7-maven-plugin</artifactId>
         <version>2.2</version>
         <configuration>
-        	<url>http://localhost:8080/manager/text</url>
+        	<url>http://54.165.74.19:8080/</url>
                 <server>TomcatServer</server>
                 <path>/webapps</path>
                 <username>admin</username>
@@ -181,4 +181,5 @@
     </profile>
   </profiles>
 </project>
+
 
