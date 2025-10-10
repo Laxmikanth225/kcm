@@ -44,7 +44,7 @@
 	    <input id="button" type="submit" value="Signup">
 	    <input id="button" type="reset" value="Reset"><br><br>
 		
-		<a href="loginA.php">Already have an account: Login</a><br> </center>
+		<a href="loginA.jsp">Already have an account: Login</a><br> </center>
    </form>
    </div>
 ewm-hcyg-kee
