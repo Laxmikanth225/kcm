@@ -3,6 +3,30 @@
 <h1 style="text-align:center">WELCOME TO MY WORLD </h1>
 <marquee><h1>this is deployed</h1></marquee>
 
+<style type="text/css">
+ #text{
+	 height: 25px;
+	 border-radius:5px;
+	 padding: 4px;
+	 border: solid thin.#aaa;
+	 width: 220px;
+ }
+ #button{
+	 padding: 10px;
+	 width: 100px;
+	 color: white;
+	 background-color: lightblue;
+	 border: none;
+ }
+ #box{
+	 background-color: 33C3FF;
+	 margin: auto;
+	 width: 300px;
+	 padding: 20px;
+ }
+ </style>
+ <div id="box">
+   <form method="post">
      <center> <div style="font-size: 20px; margin: 10px; color: white"><h2>ADMINISTATION SIGNUP</h2></div>
 	  
 	  <input id="text" type="text" name="adm_name" placeholder="Enter Admin_name"><br><br>
@@ -21,7 +45,8 @@
 	    <input id="button" type="reset" value="Reset"><br><br>
 		
 		<a href="loginA.php">Already have an account: Login</a><br> </center>
-   
+   </form>
+   </div>
 ewm-hcyg-kee
 </body>
 </html> 
